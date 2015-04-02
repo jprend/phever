@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    	<Button
+    	    android:id="@+id/btn_radio"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_above="@+id/btn_logo_vol"
+    	    android:layout_toLeftOf="@+id/btn_empty"
+    	    android:text="Radio"
+    	    />
+    	
+    	<Button
+    	    android:id="@+id/btn_empty"
+    	    android:layout_width="100px"
+    	    android:layout_height="70px"   	    
+    	    android:layout_above="@+id/btn_logo_vol"
+    	    android:layout_centerHorizontal="true" 	
+    	    android:visibility="invisible"    
+    	    />
+    	
+    	<Button
+    	    android:id="@+id/btn_tv"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_toRightOf="@+id/btn_empty"
+    	    android:layout_above="@+id/btn_logo_vol"
+    	    android:text="TV"
+    	    />
+
+		<Button 
+		    android:id="@+id/btn_logo_vol"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true"
+		    android:text="Logo volume"
+		    />
+		
+		<Button 
+		    android:id="@+id/btn_events"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/btn_logo_vol"
+		    android:layout_centerHorizontal="true"
+		    android:text="Events"		    
+		    />
+		
+		<Button 
+		    android:id="@+id/btn_djroster"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/btn_logo_vol"
+		    android:layout_toLeftOf="@+id/btn_events"
+		    android:text="DJ Roster"		    
+		    />
+		
+		<Button 
+		    android:id="@+id/btn_social"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/btn_logo_vol"
+		    android:layout_toRightOf="@+id/btn_events"
+		    android:text="Social"		    
+		    />
+
+</RelativeLayout>
+
